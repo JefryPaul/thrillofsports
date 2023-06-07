@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Sports Website</title>
+  <style>
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .sport-card {
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
+
+    .sport-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-dark"><strong><br> Welcome to the world of Sports!</strong></h1>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#cricketModal">
+          <img src="cricket.jpg" class="card-img-top" alt="Cricket">
+          <div class="card-body">
+            <h5 class="card-title">Cricket</h5>
+            <p class="card-text">Cricket is a bat-and-ball game played between two teams of eleven players.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#footballModal">
+          <img src="football.jpg" class="card-img-top" alt="Football">
+          <div class="card-body">
+            <h5 class="card-title">Football</h5>
+            <p class="card-text">Football is a team sport played with a spherical ball between two teams of eleven players.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#basketballModal">
+          <img src="basketball.jpg" class="card-img-top" alt="Basketball">
+          <div class="card-body">
+            <h5 class="card-title">Basketball</h5>
+            <p class="card-text">Basketball is a team sport played on a rectangular court, with two teams of five players each.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#volleyballModal">
+          <img src="volleyball.jpg" class="card-img-top" alt="Volleyball">
+          <div class="card-body">
+            <h5 class="card-title">Volleyball</h5>
+            <p class="card-text">Volleyball is a team sport in which two teams of six players are separated by a net.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#badmintonModal">
+          <img src="badminton.jpg" class="card-img-top" alt="badminton">
+          <div class="card-body">
+            <h5 class="card-title">Badminton</h5>
+            <p class="card-text">Badminton is a sport in which two players are separated by a net.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#tennislModal">
+          <img src="tennis.jpg" class="card-img-top" alt="Tennis">
+          <div class="card-body">
+            <h5 class="card-title">Tennis</h5>
+            <p class="card-text">Tennis is a team sport in which two players( or doubles) are separated by a net.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#kabaddiModal">
+          <img src="kabaddi.jpg" class="card-img-top" alt="Kabaddi">
+          <div class="card-body">
+            <h5 class="card-title">Kabaddi</h5>
+            <p class="card-text">Kabaddi is a contact sport, where two teams take turns sending a raider to tag as many opponents as possible.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#hockeyModal">
+          <img src="hockey.jpg" class="card-img-top" alt="hockey">
+          <div class="card-body">
+            <h5 class="card-title">Hockey</h5>
+            <p class="card-text">Hockey is a fast-paced team sport played on a field, where players use sticks to maneuver a ball and score goals in the opponent's net.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card sport-card" data-toggle="modal" data-target="#kho khoModal">
+          <img src="khokho.jpg" class="card-img-top" alt="kho kho">
+          <div class="card-body">
+            <h5 class="card-title">Kho kho</h5>
+            <p class="card-text">Kho kho is a tag sport where two teams take turns chasing and tagging players on the opposing team to score points.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Cricket Modal -->
+    <div class="modal fade" id="cricketModal" tabindex="-1" role="dialog" aria-labelledby="cricketModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cricketModalLabel">Cricket Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Cricket is a bat-and-ball game played between two teams of eleven players.</p>
+            <p>It is played on a field with a rectangular 22-yard-long pitch in the center. Each team takes turns batting and fielding. The batting team tries to score runs by hitting the ball and running between the wickets, while the fielding team tries to get the batsmen out and restrict the scoring.</p>
+            <p>Cricket is a popular sport in many countries, particularly in South Asia, Australia, England, and the Caribbean.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Football Modal -->
+    <div class="modal fade" id="footballModal" tabindex="-1" role="dialog" aria-labelledby="footballModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="footballModalLabel">Football Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Football is a team sport played with a spherical ball between two teams of eleven players.</p>
+            <p>The objective of the game is to score goals by getting the ball into the opposing team's net. Players primarily use their feet to kick the ball, but they can also use other parts of their body except for their arms and hands.</p>
+            <p>Football, also known as soccer in some countries, is the most popular sport in the world, with billions of fans and professional leagues in various countries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Basketball Modal -->
+    <div class="modal fade" id="basketballModal" tabindex="-1" role="dialog" aria-labelledby="basketballModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="basketballModalLabel">Basketball Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Basketball is a team sport played on a rectangular court, with two teams of five players each.</p>
+            <p>The objective is to shoot a ball through the opponent's hoop while preventing the opposing team from scoring in your own hoop. Players dribble the ball, pass it to teammates, and shoot the ball into the basket to score points.</p>
+            <p>Basketball is a popular sport worldwide, and professional leagues like the NBA (National Basketball Association) showcase some of the best players in the game.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Volleyball Modal -->
+    <div class="modal fade" id="volleyballModal" tabindex="-1" role="dialog" aria-labelledby="volleyballModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="volleyballModalLabel">Volleyball Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Volleyball is a team sport in which two teams of six players are separated by a net.</p>
+            <p>Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side). Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the other team's half of the court.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badminton Modal -->
+    <div class="modal fade" id="badmintonModal" tabindex="-1" role="dialog" aria-labelledby="badmintonModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="badmintonModalLabel">Badminton Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.</p>
+            <p>The teams try to score points by grounding the ball on the opponent's court, following certain rules and techniques. The players use their hands, arms, or any other body part to hit the ball over the net and into the opponent's side of the court.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tennis Modal -->
+    <div class="modal fade" id="tennislModal" tabindex="-1" role="dialog" aria-labelledby="tennisModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tennisModalLabel">Tennis Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Tennis is a racket sport that is played either individually against a single opponent (singles) or between two teams of two players each (doubles).</p>
+            <p>Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court. The object of the game is to manoeuvre the ball in such a way that the opponent is not able to play a valid return. The player who is unable to return the ball validly will not gain a point, while the opposite player will.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kabaddi Modal -->
+    <div class="modal fade" id="kabaddiModal" tabindex="-1" role="dialog" aria-labelledby="kabaddiModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="kabaddiModalLabel">Kabaddi Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>In kabaddi, a raider aims to tag opponents on the opposing team while the defenders try to stop them from returning to their side.</p>
+            <p>Kabaddi is a contact team sport. Played between two teams of seven players, the objective of the game is for a single player on offense, referred to as a "raider", to run into the opposing team's half of the court, touch out as many of their players and return to their own half of the court, all without being tackled by the defenders in 30 seconds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hockey Modal -->
+    <div class="modal fade" id="hockeyModal" tabindex="-1" role="dialog" aria-labelledby="hockeyModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="hockeyModalLabel">Hockey Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Hockey is a team sport played on a field, where players use sticks to maneuver a ball or puck and score goals in the opponent's net.</p>
+            <p>Hockey is a team sport structured in standard hockey format, in which each team plays with ten outfield players and a goalkeeper. Teams must drive a round hockey ball by hitting it with a hockey stick towards the rival team's shooting circle and then into the goal. The match is won by the team that scores the most goals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kho Kho Modal -->
+    <div class="modal fade" id="khokhoModal" tabindex="-1" role="dialog" aria-labelledby="khokhoModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="khokhoModalLabel">Kho Kho Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Kho kho is a fast-paced Indian sport where teams tag opponents while evading being tagged themselves, showcasing strategy, agility, and teamwork.</p>
+            <p>It is the second-most popular traditional tag game in the Indian subcontinent after kabaddi.Kho kho is played on a rectangular court with a central lane connecting two poles which are at either end of the court. During the game, nine players from the chasing team (attacking team) are on the field, with eight of them sitting (crouched) in the central lane, while three runners from the defending team run around the court and try to avoid being touched. Each sitting player on the chasing team faces the opposite direction of their adjacent teammates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
